@@ -6,6 +6,7 @@
   box-sizing: border-box;
   font-family: 'Montserrat', sans-serif;
   color: rgb(219, 171, 111);
+  text-decoration: unset;
 }
 
 body{

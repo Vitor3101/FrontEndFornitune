@@ -17,53 +17,50 @@ import Footer from '../components/Footer.js'
 
 function Home() {
   return (
-    <html>
-      <body>
+    <div>
 
-        <Header />
+      <Header />
 
-        <main className="flex">
+      <main className="flex">
 
-          <section className='m-background__section'>
-            <img src={sofaIcon} alt='imagem de um sofa' />
+        <section className='m-background__section'>
+          <img src={sofaIcon} alt='imagem de um sofa' />
 
-            <div className='m-background__paragraph'>
-              <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
-            </div>
-          </section>
-
-        </main>
-
-        <section className="m-background__section-image">
-          <div className="m-background__div">
-            <img src={imgMovel1} alt="Cômoda"/>
-            <p>Sala de Estar</p>
-            <Link to="/" className="m-buttom__buscarProdutos">Buscar</Link>
-          </div>
-
-          <div className="m-background__div">
-            <img src={imgMovel2} alt="Armário"/>
-            <p>Quarto</p>
-            <Link to="/" className="m-buttom__buscarProdutos">Buscar</Link>
-          </div>
-
-          <div className="m-background__div">
-            <img src={imgMovel3} alt="Armário de cozinha"/>
-            <p>Cozinha</p>
-            <Link to="/" className="m-buttom__buscarProdutos">Buscar</Link>
-          </div>
-
-          <div className="m-background__div">
-            <img src={imgMovel4} alt="Conjunto de mesa e cadeiras de praia com guarda-sol"/>
-            <p>Área gourmet</p>
-            <Link to="/" className="m-buttom__buscarProdutos">Buscar</Link>
+          <div className='m-background__paragraph'>
+            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
           </div>
         </section>
-      </body>
+
+      </main>
+
+      <section className="m-background__section-image">
+        <div className="m-background__div">
+          <img src={imgMovel1} alt="Cômoda" />
+          <p>Sala de Estar</p>
+          <Link to="/" className="m-buttom__buscarProdutos">Buscar</Link>
+        </div>
+
+        <div className="m-background__div">
+          <img src={imgMovel2} alt="Armário" />
+          <p>Quarto</p>
+          <Link to="/" className="m-buttom__buscarProdutos">Buscar</Link>
+        </div>
+
+        <div className="m-background__div">
+          <img src={imgMovel3} alt="Armário de cozinha" />
+          <p>Cozinha</p>
+          <Link to="/" className="m-buttom__buscarProdutos">Buscar</Link>
+        </div>
+
+        <div className="m-background__div">
+          <img src={imgMovel4} alt="Conjunto de mesa e cadeiras de praia com guarda-sol" />
+          <p>Área gourmet</p>
+          <Link to="/" className="m-buttom__buscarProdutos">Buscar</Link>
+        </div>
+      </section>
 
       <Footer />
-
-    </html>
+    </div>
   );
 }
 

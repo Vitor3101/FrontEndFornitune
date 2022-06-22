@@ -10,6 +10,11 @@
     width: 30%;
 }
 
+.f-item__footer:hover{
+    opacity: 70%;
+}
+
+
 .f-content__nav {
     height: 80%;
     display: flex;
@@ -18,8 +23,11 @@
 }
 
 .f-content__nav a{
-    text-decoration: unset;
     font-size: 1.1vw;
+}
+
+.f-content__nav a:hover{
+    opacity: 70%;
 }
 
 #marca_title{
@@ -32,5 +40,4 @@
     max-width: 20vw;
     font-size: 1vw;
     text-align: center;
-    text-decoration: unset;
 }

@@ -1,0 +1,66 @@
+h1{
+    text-transform: uppercase;
+}
+
+.l-background__div-apoio {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url('../img/backgroundImg.jpg');
+    background-attachment: fixed;
+}
+
+.l-back__div-form {
+    height: 100%;
+    width: 45vw;
+    background-color: wheat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.l-suport__div-forms{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.l-suport__div-forms h1 {
+    font-size: 8vh;
+    font-weight: 500;
+}
+
+#l-form{
+    width: 45%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.l-form__input{
+    height: 6vh;
+    border: unset;
+    background-color: wheat;
+    border-bottom: 1.8px solid white;
+    margin-bottom: 1vw;
+    padding-left: 9px;
+    font-size: 1.15vw;
+}
+
+#button-login{
+    height: 6vh;
+    background-color: white;
+    border: 2px solid whitesmoke;
+    font-size: 1.2vw;
+    border-radius: 0.4vw;
+    font-weight: 500;
+}
+
+#button-login:hover{
+    opacity: 70%;
+}
