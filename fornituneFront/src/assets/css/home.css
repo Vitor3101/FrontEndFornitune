@@ -42,16 +42,17 @@
     border-radius: 0.8vw;
 }
 
-.m-background__div:hover{
-    -webkit-box-shadow: 14px 15px 26px -5px rgba(0,0,0,0.34);
--moz-box-shadow: 14px 15px 26px -5px rgba(0,0,0,0.34);
-box-shadow: 14px 15px 26px -5px rgba(0,0,0,0.34);
+.m-background__div:hover {
+    -webkit-box-shadow: 14px 15px 26px -5px rgba(0, 0, 0, 0.34);
+    -moz-box-shadow: 14px 15px 26px -5px rgba(0, 0, 0, 0.34);
+    box-shadow: 14px 15px 26px -5px rgba(0, 0, 0, 0.34);
 }
 
 .m-background__div img {
-    margin: 1vw 0;
     width: 85%;
     height: auto;
+    margin: 1vw 0;
+    
 }
 
 .m-background__div p {
@@ -74,7 +75,7 @@ box-shadow: 14px 15px 26px -5px rgba(0,0,0,0.34);
     background-color: black;
 }
 
-.m-buttom__buscarProdutos:hover{
+.m-buttom__buscarProdutos:hover {
     opacity: 70%;
 }
 

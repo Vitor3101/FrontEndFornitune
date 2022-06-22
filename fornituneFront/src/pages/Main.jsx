@@ -15,7 +15,7 @@ import imgMovel4 from '../assets/img/imgMovel4.jpg'
 import Header from '../components/Header.js'
 import Footer from '../components/Footer.js'
 
-function Home() {
+export default function Home() {
   return (
     <div>
 
@@ -63,5 +63,3 @@ function Home() {
     </div>
   );
 }
-
-export default Home;

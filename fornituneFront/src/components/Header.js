@@ -13,7 +13,7 @@ export default function Header() {
 
         <nav className='h-content__nav'>
           
-          <Link to='/Market_Place'>Market Place</Link>
+          <Link to='/Market-Place'>Market Place</Link>
           <Link to='/Contatos'>Contato</Link>
           <Link to='/Sobre'>Sobre nós</Link>
           <Link id='entrar' to='/Login'>Entrar</Link>
