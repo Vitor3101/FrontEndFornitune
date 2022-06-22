@@ -1,0 +1,36 @@
+.f-background__div{
+    height: 11vw;
+    padding: 1vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.f-item__footer{
+    width: 30%;
+}
+
+.f-content__nav {
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.f-content__nav a{
+    text-decoration: unset;
+    font-size: 1.1vw;
+}
+
+#marca_title{
+    font-size: 1.3vw;
+    font-weight: 700;
+    text-align: center;
+}
+
+#endereco{
+    max-width: 20vw;
+    font-size: 1vw;
+    text-align: center;
+    text-decoration: unset;
+}

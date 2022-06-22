@@ -1,0 +1,41 @@
+.h-background__suport{
+    height: 15vw;
+    padding: 0.3vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.h-background__suport img{
+    height: 100%;
+    width: auto;
+}
+
+.h-content__nav{
+    width: 35vw;
+    height: 2.5vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.h-content__nav a{
+    font-size: 1.05vw;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: unset;
+}
+
+#entrar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1vw;
+    color: white;
+    background-color: rgb(219, 171, 111);
+    width: 7vw;
+    height: 100%;
+    border: 0.15vw solid rgb(111, 83, 49);
+    border-radius: 2vw;
+    font-weight: 600;
+}
